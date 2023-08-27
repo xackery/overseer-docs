@@ -10,5 +10,5 @@ Remedy Steps:
 Additional Notes:
 
 - The server path is the path to your server's root directory, where eqemu_config.json and most other files reside
-- If you're using a custom server path, make sure to use forward slashes (/) on Linux and backslashes (\) on Windows
+- If you're using a custom server path, make sure to use forward slashes `/` on Linux and backslashes `\` on Windows
 - Your text editor may have added strange newlines or other characters to the file. Make sure to remove them and use notepad, notepad++, or another simple text editor if you're unsure. Don't use wordpad or word or it may add strange characters to the file 

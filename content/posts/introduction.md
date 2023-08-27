@@ -1,7 +1,7 @@
 ---
 banner: "post/images/site.jpg"
 categories:  ["site"]
-date:  "2016-04-23T01:19:18-07:00"
+date:  "2023-08-27T01:19:18-07:00"
 description:  "Introduction"
 images:  ["post/images/site.jpg"]
 menuTitle: ""
@@ -9,6 +9,11 @@ tags:  ["tech"]
 title:  "Introduction to Overseer"
 
 ---
-Welcome to the new and improved xackery.com! This site will be changed more often and be more awesomer.
+Overseer is a suite of tools made to assist your eqemu experience
 <!--more-->
-With all the new features added, it should make keeping interest easier.
+- bootstrap: Recommended way to start the server, runs shared memory then overseer
+- overseer: Runs zones, world, and other programs, keeping them runnning on crash, and oversees their health
+- verify: Verifies if overseer is running properly, and other run time checks
+- diagnose: Diagnoses issues with the server, and provides a report to suggest fixes
+- install: Installs the server, and all required dependencies
+- update: Updates the server, and all required dependencies

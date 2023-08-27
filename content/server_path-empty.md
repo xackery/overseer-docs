@@ -1,4 +1,4 @@
-This error occurs when overseer.ini is empty.
+This error occurs when the server path in overseer.ini is empty
 
 Remedy Steps:
 
@@ -6,3 +6,9 @@ Remedy Steps:
 - Check if there's a server_path entry inside the file
 - If not, add one with the pattern `server_path = /path/to/your/server/`, or on windows, `server_path = C:\path\to\your\server\`
 - Save the file and restart diagnose to see if the error is gone
+
+Additional Notes:
+
+- The server path is the path to your server's root directory, where eqemu_config.json and most other files reside
+- If you're using a custom server path, make sure to use forward slashes (/) on Linux and backslashes (\) on Windows
+- Your text editor may have added strange newlines or other characters to the file. Make sure to remove them and use notepad, notepad++, or another simple text editor if you're unsure. Don't use wordpad or word or it may add strange characters to the file 

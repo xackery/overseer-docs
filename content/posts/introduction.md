@@ -14,6 +14,6 @@ Overseer is a suite of tools made to assist your eqemu experience
 - bootstrap: Recommended way to start the server, runs shared memory then overseer
 - overseer: Runs zones, world, and other programs, keeping them runnning on crash, and oversees their health
 - verify: Verifies if overseer is running properly, and other run time checks
-- diagnose: Diagnoses issues with the server, and provides a report to suggest fixes
+- diagnose: Diagnoses issues with your eqemu setup, with a link to each solution page
 - install: Installs the server, and all required dependencies
 - update: Updates the server, and all required dependencies
